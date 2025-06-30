@@ -22,7 +22,6 @@ body {
 
 .flex {
   display: flex;
-  align-items: center;
 }
 
 /*header*/
@@ -34,6 +33,7 @@ body {
 
 .logo {
   gap: 12px;
+  align-items: center;
   margin-right: 320px;
 }
 
@@ -52,8 +52,9 @@ body {
 }
 
 .nav__list {
-  gap: 28px;
+  gap: 27px;
   margin-right: 48px;
+  align-items: center;
 }
 
 .nav__link {
@@ -104,6 +105,7 @@ body {
 
 /*hero-section*/
 .hero-section {
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 110px;
 }
@@ -158,8 +160,7 @@ body {
 
 .items {
   text-align: left;
-  align-items: start;
-  justify-content: space-between;
+  gap: 45px;
   margin-bottom: 34px;
 }
 
@@ -175,9 +176,34 @@ body {
 .section__subtitle {
   font-size: var(--section-subtitle-font-size);
   font-weight: 600;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 
 .section__text {
   line-height: 26px;
+}
+
+/*effortless-section*/
+.effortless-section {
+  align-items: center;
+  margin-bottom: 101px;
+  justify-content: space-between;
+}
+
+.effortless-section .section__title {
+  margin-bottom: 22px;
+}
+
+.effortless-section .section__subtitle {
+  font-size: var(--main-font-size);
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.article {
+  margin-top: 25px;
+}
+
+.section__text + .article {
+  margin-top: 30px;
 }
