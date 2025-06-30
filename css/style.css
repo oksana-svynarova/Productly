@@ -22,6 +22,8 @@ body {
 
 .flex {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*header*/
@@ -33,7 +35,6 @@ body {
 
 .logo {
   gap: 12px;
-  align-items: center;
   margin-right: 320px;
 }
 
@@ -54,7 +55,6 @@ body {
 .nav__list {
   gap: 27px;
   margin-right: 48px;
-  align-items: center;
 }
 
 .nav__link {
@@ -105,8 +105,6 @@ body {
 
 /*hero-section*/
 .hero-section {
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 110px;
 }
 
@@ -155,12 +153,15 @@ body {
   font-size: var(--section-title-font-size);
   font-weight: 700;
   line-height: normal;
+}
+
+.feature-section .section__title {
   margin-bottom: 54px;
 }
 
 .items {
+  align-items: start;
   text-align: left;
-  gap: 45px;
   margin-bottom: 34px;
 }
 
@@ -173,9 +174,12 @@ body {
   margin-bottom: 30px;
 }
 
-.section__subtitle {
+.feature-section .section__subtitle {
   font-size: var(--section-subtitle-font-size);
   font-weight: 600;
+}
+
+.feature-section .section__subtitle {
   margin-bottom: 15px;
 }
 
@@ -185,17 +189,17 @@ body {
 
 /*effortless-section*/
 .effortless-section {
-  align-items: center;
   margin-bottom: 101px;
-  justify-content: space-between;
 }
 
-.effortless-section .section__title {
+.effortless-section .section__title,
+.marketers-section .section__title {
   margin-bottom: 22px;
 }
 
-.effortless-section .section__subtitle {
+.section__subtitle {
   font-size: var(--main-font-size);
+  font-weight: 700;
   line-height: 26px;
   margin-bottom: 12px;
 }
@@ -206,4 +210,23 @@ body {
 
 .section__text + .article {
   margin-top: 30px;
+}
+
+/*product-managers-section*/
+.product-managers-section {
+  margin-bottom: 104px;
+}
+
+.product-managers-section .section__title {
+  margin-bottom: 22px;
+}
+
+.list__item {
+  justify-content: start;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.tick {
+  max-width: 35px;
 }
