@@ -30,6 +30,7 @@ body {
 .header {
   padding: 24px 0;
   margin-bottom: 30px;
+  gap: 48px;
 }
 
 .logo {
@@ -51,11 +52,12 @@ body {
   font-weight: 800;
 }
 
-.header-row {
-  gap: 48px;
+.nav {
+  flex-grow: 1;
 }
 
 .nav__list {
+  justify-content: flex-end;
   gap: 27px;
 }
 
@@ -243,14 +245,20 @@ body {
 }
 
 /*footer*/
-.footer-row {
-  justify-content: right;
-  margin: 45px 0 83px;
+.footer {
+  margin-bottom: 83px;
   gap: 81px;
 }
 
+.footer .logo {
+  align-self: start;
+}
+
 .footer__nav {
+  flex-grow: 1;
+  justify-content: flex-end;
   gap: 180px;
+  padding-top: 65px;
 }
 
 .footer__link {
@@ -263,6 +271,7 @@ body {
   align-items: start;
   flex-direction: column;
   gap: 21px;
+  padding-top: 80px;
 }
 
 .input {
