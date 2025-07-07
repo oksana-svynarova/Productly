@@ -1,0 +1,17 @@
+
+:root {
+/*colors*/
+  --logo-text-color: #173A56;
+  --main-text-color: #544837;
+  --title-text-color: #2F281E;
+  --button-border-color: #BCD0E5;
+  --button-bg-color: #ff9900;
+  --button-text-color: #ffffff;
+/*text-sizes*/
+  --nav-font-size: 14px;
+  --main-font-size: 16px;
+  --main-title-font-size: 44px;
+  --main-text-font-size: 18px;
+  --section-title-font-size: 36px;
+  --section-subtitle-font-size: 22px;
+}
